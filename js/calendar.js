@@ -9,7 +9,7 @@ function estructurar() {
     //Mes
     let mes = document.createElement("DIV");
     mes.className = "mes";
-    document.body.appendChild(mes);
+    document.querySelector('.init-calendar').appendChild(mes);
     //Tabla
     let tabla_mes = document.createElement("TABLE");
     tabla_mes.className = "tabla_mes";
